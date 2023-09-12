@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Sathyan"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-11 03:15:17 PM"/>
+        <attribute name="created" value="U2F0aHlhbjtERVNLVE9QLVJRUDFQSzk7MjAyMy0wOS0xMTswMzowOTo0OCBQTTszMTAx"/>
+        <attribute name="edited" value="U2F0aHlhbjtERVNLVE9QLVJRUDFQSzk7MjAyMy0wOS0xMTswMzoxNToxNyBQTTsxOzMyMDI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="number, remainder" type="Integer" array="False" size=""/>
+            <output expression="&quot;enter a number&quot;" newline="True"/>
+            <input variable="number"/>
+            <assign variable="remainder" expression="number/2"/>
+            <if expression="remainder==0">
+                <then>
+                    <output expression="number&amp;&quot;:is a even number&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="number&amp;&quot;:is a odd number&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
